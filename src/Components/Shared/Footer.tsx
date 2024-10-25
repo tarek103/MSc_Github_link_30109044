@@ -46,7 +46,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <span className="text-gray-400">
-                  Email: support@yourwebsite.com
+                  Email: 30109044@students.southwales.ac.uk
                 </span>
               </li>
               <li>
