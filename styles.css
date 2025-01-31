@@ -1,0 +1,153 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container Layout */
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Paragraph */
+p {
+    color: #495057;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #007bff;
+    font-weight: bold;
+    transition: background-color 0.3s ease, opacity 0.2s;
+}
+
+/* Hover Effect */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Disabled Button */
+button:disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+
+/* Button Colors */
+button.btn-success {
+    background-color: #28a745;
+}
+
+button.btn-danger {
+    background-color: #dc3545;
+}
+
+button.btn-secondary {
+    background-color: #6c757d;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+table th, table td {
+    padding: 12px 15px;
+    border: 1px solid #dee2e6;
+}
+
+table th {
+    background-color: #007bff;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Forms */
+form {
+    margin-bottom: 20px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+/* Lists */
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+/* Layout Utilities */
+.text-center {
+    text-align: center;
+}
+
+.mt-4 {
+    margin-top: 1.5rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
