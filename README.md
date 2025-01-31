@@ -95,7 +95,7 @@ The **Foodfinder** application is a web-based platform designed to reduce food w
 
 ## **Usage**
 
-1. **Register** as a donor, receiver, or admin.
+1. **Register** as a donor or receiver.
 2. **Login** to access your role-specific dashboard.
 3. **Donors**: Add food listings and manage requests.
 4. **Receivers**: Search for listings and submit requests.
