@@ -65,7 +65,7 @@ The **Foodfinder** application is a web-based platform designed to reduce food w
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/foodfinder.git
+   git clone https://github.com/tarek103/MSc_Github_link_30109044
    cd foodfinder
    ```
 
